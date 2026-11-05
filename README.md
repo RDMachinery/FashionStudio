@@ -1,14 +1,10 @@
 # Fashion Studio
 
-![Screenshot](screenshot.jpeg)
-
 **Dress the model, play with colour and print, and build a lookbook of your favourite outfits.**
 
 Fashion Studio is a dress-up design studio for anyone who loves clothes. Pick a top, bottoms or a dress, add a jacket, shoes, a bag and a hat, then choose colours and prints for every piece. As you dress the model, a friendly **Style Notes** panel tells you what's working: your colour palette, whether your prints go together, which colour season the look suits, and a style score out of ten.
 
 ---
-
-![Fashion Studio](fashion-studio-window.png)
 
 ## What you can do
 
@@ -35,15 +31,75 @@ Fashion Studio is a dress-up design studio for anyone who loves clothes. Pick a 
 
 ## Getting started
 
-Fashion Studio is a single file, `FashionStudio.java`. You need Java 17 or newer.
+Fashion Studio is a single file, `FashionStudio.java`. To run it, you need Java 17 or newer on your computer. Java is free, and you only need to install it once.
 
-1. If you don't have Java yet, install it from [adoptium.net](https://adoptium.net) (choose the latest LTS version).
-2. Download `FashionStudio.java`.
-3. Open **Terminal** (Mac) or **Command Prompt** (Windows), go to the folder with the file, and type:
+### On Windows
 
-```
-java FashionStudio.java
-```
+**1. Install Java**
+
+1. Go to [adoptium.net](https://adoptium.net) and click the big download button for the latest **LTS** version. The site should pick the Windows version for you automatically.
+2. Open the downloaded file (it ends in `.msi`) and click through the installer.
+3. On the screen that lists features to install, check that **Add to PATH** is set to be installed. It normally is by default. This setting lets Windows find Java when you type a command.
+4. Finish the installer.
+
+**2. Check that Java is working**
+
+1. Click the **Start** button, type `cmd` and press **Enter**. A black **Command Prompt** window will open.
+2. Type the following and press **Enter**:
+
+   ```
+   java -version
+   ```
+
+3. You should see a few lines mentioning a version number of 17 or higher, for example `openjdk version "21.0.5"`.
+   - If instead you see *"'java' is not recognized as an internal or external command"*, close the Command Prompt window and open a new one. Windows only notices newly installed programs in new windows. If you still get the message, restart your computer and try again.
+
+**3. Download Fashion Studio**
+
+1. Download `FashionStudio.java` from this page. To do this, click the file name, then click the **Download raw file** button (the arrow pointing down) at the top right of the code.
+2. It will usually go into your **Downloads** folder.
+3. Make sure the file is called exactly `FashionStudio.java`, with a capital F and a capital S. Some browsers add `.txt` to the end of the name. If yours did, rename it.
+   - Windows often hides file endings. To see them, open File Explorer, click **View** (in Windows 11, **View → Show**) and turn on **File name extensions**.
+
+**4. Run it**
+
+1. Open a Command Prompt (**Start**, type `cmd`, press **Enter**).
+2. Go to the folder where the file is. If it's in Downloads, type:
+
+   ```
+   cd Downloads
+   ```
+
+   and press **Enter**.
+3. Now start the studio:
+
+   ```
+   java FashionStudio.java
+   ```
+
+4. After a few seconds, the Fashion Studio window will open. Keep the Command Prompt window open while you use the app. Closing it also closes Fashion Studio.
+
+**Shortcut:** open the folder containing `FashionStudio.java` in File Explorer. Click the address bar at the top, type `cmd` and press **Enter**. A Command Prompt opens already in that folder, so you can skip the `cd` step.
+
+**If something goes wrong on Windows**
+
+| What you see | What to do |
+|---|---|
+| `'java' is not recognized…` | Java isn't installed or Windows can't find it. Open a new Command Prompt or restart your computer. If that doesn't help, run the installer again and make sure **Add to PATH** is turned on. |
+| `File not found: FashionStudio.java` | The Command Prompt is in the wrong folder, or the file has a different name. Type `dir` and press **Enter** to list the files in the current folder. Check that `FashionStudio.java` is there, spelled exactly like that. |
+| `error: … class FashionStudio is public, should be declared in a file named…` | The file has been renamed, for example to `FashionStudio (1).java`. Rename it back to `FashionStudio.java`. |
+| A message about `unsupported class file version` or `release version 17 not supported` | Your Java is too old. Install the latest LTS version from adoptium.net. |
+
+### On a Mac
+
+1. Install Java from [adoptium.net](https://adoptium.net). Choose the latest **LTS** version, open the `.pkg` file and follow the steps.
+2. Download `FashionStudio.java` into your **Downloads** folder.
+3. Open **Terminal** (it's in Applications → Utilities) and type:
+
+   ```
+   cd Downloads
+   java FashionStudio.java
+   ```
 
 The studio window will open.
 
