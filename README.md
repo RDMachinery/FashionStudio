@@ -6,6 +6,8 @@ Fashion Studio is a dress-up design studio for anyone who loves clothes. Pick a 
 
 ---
 
+![Fashion Studio](fashion-studio-window.png)
+
 ## What you can do
 
 - **Dress the model** from seven parts of the wardrobe:
