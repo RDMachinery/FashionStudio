@@ -1,3 +1,5 @@
+![Screenshot](screenshot.jpeg)
+
 # Fashion Studio
 
 **Dress the model, play with colour and print, and build a lookbook of your favourite outfits.**
@@ -7,6 +9,8 @@ Fashion Studio is a dress-up design studio for anyone who loves clothes. Pick a 
 ---
 
 ## What you can do
+
+![Fashion Studio window](fashion-studio-window.png)
 
 - **Dress the model** from seven parts of the wardrobe:
   - **Tops**: T-shirt, blouse, turtleneck, crop top, camisole
