@@ -1,5 +1,7 @@
 # Fashion Studio
 
+![Screenshot](screenshot.jpeg)
+
 **Dress the model, play with colour and print, and build a lookbook of your favourite outfits.**
 
 Fashion Studio is a dress-up design studio for anyone who loves clothes. Pick a top, bottoms or a dress, add a jacket, shoes, a bag and a hat, then choose colours and prints for every piece. As you dress the model, a friendly **Style Notes** panel tells you what's working: your colour palette, whether your prints go together, which colour season the look suits, and a style score out of ten.
